@@ -41,13 +41,6 @@
 
 <!-- this is the CoM of the car -->
   <link name="base_link" >
-    <visual>
-      <origin rpy="1.57079632679 0.06 3.1415926" xyz="-0.6 0.25 0.2"/>
-      <geometry>
-        <mesh filename="package://car_model_visualization/meshes/ny-D2018_master_test_5.stl" scale="0.001 0.001 0.001"/>
-      </geometry>
- 	<material name="gray"/>
-    </visual>
   </link>
 
 <!-- Joints -->
